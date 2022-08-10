@@ -1,0 +1,26 @@
+{
+  "name": "stars-of-wonder",
+  "version": "1.0.0",
+  "description": "For Wonder Bright and the world",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "networked",
+    "A-Frame",
+    "VR"
+  ],
+  "author": "bmordan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "networked-aframe": "^0.10.1",
+    "open-easyrtc": "^2.0.14",
+    "socket.io": "2.5.0"
+  },
+  "engines": {
+    "node": "16",
+    "npm": "8"
+  }
+}
